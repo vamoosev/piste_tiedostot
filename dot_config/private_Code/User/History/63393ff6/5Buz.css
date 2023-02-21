@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* here we change the defaults */
+
+@layer base {
+    h1 {
+        @apply text-2xl;
+    }
+    h2 {
+        @apply text-xl;
+    }
+    ul {
+        @apply list-disc list-inside;
+    }
+    blockquote {
+        @apply text-xl italic font-medium leading-relaxed text-gray-900;
+    }
+
+    .blog-content {
+        @apply flex flex-col justify-center max-w-6xl;
+    }
+    ol {
+        @apply list-decimal
+    }
+}

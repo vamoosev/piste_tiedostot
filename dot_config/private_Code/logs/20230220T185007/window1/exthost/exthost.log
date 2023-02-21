@@ -1,0 +1,345 @@
+2023-02-20 18:50:07.901 [info] Extension host with pid 25354 started
+2023-02-20 18:50:07.901 [info] Skipping acquiring lock for /home/aarni/.config/Code/User/workspaceStorage/0c26edfc0c51c6a1cf2d8ac729b15294.
+2023-02-20 18:50:07.939 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-20 18:50:07.942 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: false, activationEvent: 'onLanguage:astro'
+2023-02-20 18:50:07.952 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-20 18:50:07.953 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-02-20 18:50:08.022 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-20 18:50:08.035 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-20 18:50:08.091 [info] Eager extensions activated
+2023-02-20 18:50:08.120 [error] Error: No registered selector for ID: ms-vscode.npm-command
+    at R.registerQuickFixProvider (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1557:27745)
+    at r.$registerQuickFixProvider (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1696:52931)
+    at m.N (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:15220)
+    at m.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:14938)
+    at m.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:14031)
+    at m.G (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:13012)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:11800
+    at g.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at n.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:2029)
+    at a.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:1667)
+    at r.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:553:15219)
+    at Z.onmessage (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1671:1490)
+2023-02-20 18:50:08.120 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-20 18:50:08.121 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-20 18:50:08.127 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-02-20 18:50:08.136 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-02-20 18:50:08.141 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-02-20 18:50:08.156 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-02-20 18:50:08.245 [info] ExtensionService#_doActivateExtension maattdd.gitless, startup: false, activationEvent: 'onStartupFinished'
+2023-02-20 18:50:08.278 [info] ExtensionService#_doActivateExtension testausserveri-ry.testaustime, startup: false, activationEvent: 'onStartupFinished'
+2023-02-20 18:50:08.380 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-02-20 18:50:09.374 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-02-20 19:05:22.510 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2023-02-20 19:08:18.832 [warning] TextEditor is closed/disposed
+2023-02-20 19:08:59.205 [error] [bradlc.vscode-tailwindcss] provider FAILED
+2023-02-20 19:08:59.206 [error] TypeError: Cannot read properties of null (reading 'filter')
+    at Object.<anonymous> (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:43:11485)
+    at Generator.next (<anonymous>)
+    at s (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:1:1247)
+2023-02-20 19:09:43.727 [warning] TextEditor is closed/disposed
+2023-02-20 19:09:46.321 [warning] TextEditor is closed/disposed
+2023-02-20 19:10:31.530 [warning] TextEditor is closed/disposed
+2023-02-20 19:12:40.146 [warning] TextEditor is closed/disposed
+2023-02-20 19:12:43.914 [warning] TextEditor is closed/disposed
+2023-02-20 19:12:47.492 [warning] TextEditor is closed/disposed
+2023-02-20 19:34:40.529 [warning] TextEditor is closed/disposed
+2023-02-20 19:34:41.650 [warning] TextEditor is closed/disposed
+2023-02-20 19:34:44.778 [warning] TextEditor is closed/disposed
+2023-02-20 19:44:26.542 [warning] TextEditor is closed/disposed
+2023-02-20 19:47:33.591 [warning] TextEditor is closed/disposed
+2023-02-20 19:47:36.939 [warning] TextEditor is closed/disposed
+2023-02-20 19:48:25.814 [warning] TextEditor is closed/disposed
+2023-02-20 19:48:44.297 [warning] TextEditor is closed/disposed
+2023-02-20 19:48:48.765 [error] [bradlc.vscode-tailwindcss] provider FAILED
+2023-02-20 19:48:48.765 [error] TypeError: Cannot read properties of null (reading 'filter')
+    at Object.<anonymous> (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:43:11485)
+    at Generator.next (<anonymous>)
+    at s (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:1:1247)
+2023-02-20 19:48:51.385 [warning] TextEditor is closed/disposed
+2023-02-20 19:51:04.461 [warning] TextEditor is closed/disposed
+2023-02-20 19:51:15.127 [error] [bradlc.vscode-tailwindcss] provider FAILED
+2023-02-20 19:51:15.127 [error] TypeError: Cannot read properties of null (reading 'filter')
+    at Object.<anonymous> (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:43:11485)
+    at Generator.next (<anonymous>)
+    at s (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:1:1247)
+2023-02-20 19:51:15.128 [error] [bradlc.vscode-tailwindcss] provider FAILED
+2023-02-20 19:51:15.128 [error] TypeError: Cannot read properties of null (reading 'filter')
+    at Object.<anonymous> (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:43:11485)
+    at Generator.next (<anonymous>)
+    at s (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:1:1247)
+2023-02-20 19:52:24.156 [warning] TextEditor is closed/disposed
+2023-02-20 19:52:58.059 [warning] TextEditor is closed/disposed
+2023-02-20 19:54:36.975 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-02-20 19:54:36.996 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-02-20 19:54:37.011 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-02-20 19:54:37.056 [info] ExtensionService#_doActivateExtension mongodb.mongodb-vscode, startup: false, activationEvent: 'onLanguage:json'
+2023-02-20 19:54:37.459 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:json'
+2023-02-20 19:54:38.110 [warning] TextEditor is closed/disposed
+2023-02-20 19:54:41.867 [warning] TextEditor is closed/disposed
+2023-02-20 19:55:11.722 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+2023-02-20 19:55:14.895 [warning] TextEditor is closed/disposed
+2023-02-20 19:55:40.278 [warning] TextEditor is closed/disposed
+2023-02-20 19:59:00.085 [warning] TextEditor is closed/disposed
+2023-02-20 19:59:00.908 [warning] TextEditor is closed/disposed
+2023-02-20 19:59:09.023 [warning] TextEditor is closed/disposed
+2023-02-20 19:59:24.849 [warning] TextEditor is closed/disposed
+2023-02-20 19:59:25.503 [warning] TextEditor is closed/disposed
+2023-02-20 19:59:28.345 [warning] TextEditor is closed/disposed
+2023-02-20 19:59:29.192 [warning] TextEditor is closed/disposed
+2023-02-20 19:59:34.955 [warning] TextEditor is closed/disposed
+2023-02-20 20:01:36.649 [warning] TextEditor is closed/disposed
+2023-02-20 20:01:53.968 [warning] TextEditor is closed/disposed
+2023-02-20 20:01:58.242 [warning] TextEditor is closed/disposed
+2023-02-20 20:03:41.101 [warning] TextEditor is closed/disposed
+2023-02-20 20:03:41.540 [warning] TextEditor is closed/disposed
+2023-02-20 20:03:48.380 [warning] TextEditor is closed/disposed
+2023-02-20 20:03:50.327 [warning] TextEditor is closed/disposed
+2023-02-20 20:03:51.152 [warning] TextEditor is closed/disposed
+2023-02-20 20:04:25.026 [warning] TextEditor is closed/disposed
+2023-02-20 20:04:55.862 [warning] TextEditor is closed/disposed
+2023-02-20 20:05:01.021 [error] [bradlc.vscode-tailwindcss] provider FAILED
+2023-02-20 20:05:01.021 [error] TypeError: Cannot read properties of null (reading 'filter')
+    at Object.<anonymous> (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:43:11485)
+    at Generator.next (<anonymous>)
+    at s (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:1:1247)
+2023-02-20 20:05:03.663 [warning] TextEditor is closed/disposed
+2023-02-20 20:20:57.838 [info] Extension host terminating: renderer closed the MessagePort
+2023-02-20 20:20:57.861 [error] Canceled: Canceled
+    at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at D (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2055373)
+    at f.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at Object.h [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2070210)
+    at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2074277
+    at Array.forEach (<anonymous>)
+    at g.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2074263)
+    at C.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+    at C.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+    at C.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2057503)
+    at C.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+    at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-20 20:20:57.995 [error] Canceled: Canceled
+    at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at setContext (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/constants.ts:71:9)
+    at Z._updateContextKeys (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:333:16)
+    at onChanged (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:186:21)
+    at V.unregister (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:200:29)
+    at V.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:82:3)
+    at Z.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:164:10)
+    at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-20 20:20:57.996 [error] Canceled: Canceled
+    at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at setContext (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/constants.ts:71:9)
+    at Z._updateContextKeys (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:333:16)
+    at onChanged (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:186:21)
+    at V.unregister (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:200:29)
+    at V.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:82:3)
+    at Z.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:164:10)
+    at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-20 20:20:57.996 [error] Canceled: Canceled
+    at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at setContext (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/constants.ts:71:9)
+    at Z._updateContextKeys (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:333:16)
+    at onChanged (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:186:21)
+    at V.unregister (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:200:29)
+    at V.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:82:3)
+    at Z.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:164:10)
+    at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-20 20:20:57.996 [error] Canceled: Canceled
+    at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at setContext (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/constants.ts:71:9)
+    at Z._updateContextKeys (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:333:16)
+    at onChanged (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:186:21)
+    at V.unregister (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:200:29)
+    at V.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:82:3)
+    at Object.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:219:17)
+    at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-20 20:20:57.996 [error] Canceled: Canceled
+    at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at setContext (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/constants.ts:71:9)
+    at Z._updateContextKeys (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:333:16)
+    at onChanged (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:186:21)
+    at V.unregister (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:200:29)
+    at V.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:82:3)
+    at Object.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:219:17)
+    at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-20 20:20:57.996 [error] Canceled: Canceled
+    at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at setContext (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/constants.ts:71:9)
+    at Z._updateContextKeys (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:333:16)
+    at onChanged (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:186:21)
+    at V.unregister (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:200:29)
+    at V.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:82:3)
+    at Object.dispose (/home/aarni/.vscode/extensions/maattdd.gitless-11.7.2/dist/webpack:/gitless/src/api/actionRunners.ts:219:17)
+    at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-20 20:20:58.150 [info] Extension host with pid 25354 exiting with code 0
+2023-02-20 20:20:59.002 [error] Error: Client is not running
+    at S.sendRequest (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5720021)
+    at t.default.disconnectFromServiceProvider (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5556099)
+    at t.default._connectToServiceProvider (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5489905)
+    at EventEmitter.<anonymous> (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5488818)
+    at EventEmitter.emit (node:events:526:28)
+    at t.default.disconnect (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5450175)
+    at t.default.deactivate (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5571387)
+    at t.default.dispose (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5571322)
+    at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-02-20 20:20:59.003 [error] Error: Starting server failed
+    at S.$start (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5735098)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at S.sendRequest (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5720111)
+    at t.default.disconnectFromServiceProvider (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5556080)
+    at t.default._connectToServiceProvider (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5489868)
+2023-02-20 20:20:59.152 [error] TypeError: Cannot read properties of undefined (reading 'send')
+    at process.<anonymous> (/home/aarni/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5114)
+    at process.emit (node:events:538:35)
+    at process.on.process.emit (/home/aarni/.vscode/extensions/github.copilot-1.73.8685/dist/extension.js:8:592863)
+    at process.exit (node:internal/process/per_thread:189:15)
+    at Object.exit (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17614)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9531
+    at <anonymous>
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

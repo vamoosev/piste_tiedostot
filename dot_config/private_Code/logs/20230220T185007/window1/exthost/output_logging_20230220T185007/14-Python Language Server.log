@@ -1,0 +1,24 @@
+[Info  - 7:54:38 PM] (35346) Pylance language server 2023.2.30 (pyright dec6aa20) starting
+[Info  - 7:54:38 PM] (35346) Server root directory: /home/aarni/.vscode/extensions/ms-python.vscode-pylance-2023.2.30/dist
+[Info  - 7:54:38 PM] (35346) Starting service instance "huhuu-dev"
+[Info  - 7:54:38 PM] (35346) Auto-indent enabled
+[Info  - 7:54:38 PM] (35346) Starting service instance "<default>"
+[Info  - 7:54:38 PM] (35346) No configuration file found.
+[Info  - 7:54:38 PM] (35346) No pyproject.toml file found.
+[Info  - 7:54:38 PM] (35346) Setting pythonPath for service "huhuu-dev": "/bin/python"
+[Warn  - 7:54:38 PM] (35346) stubPath /home/aarni/huhuu-dev/typings is not a valid directory.
+[Info  - 7:54:38 PM] (35346) Assuming Python version 3.10
+[Info  - 7:54:38 PM] (35346) Assuming Python platform Linux
+[Info  - 7:54:38 PM] (35346) Searching for source files
+[Info  - 7:54:38 PM] (35346) No source files found.
+[Info  - 7:54:38 PM] (35346) No pyproject.toml file found.
+[Info  - 7:54:38 PM] (35346) Setting pythonPath for service "<default>": "/bin/python"
+[Warn  - 7:54:38 PM] (35346) stubPath typings is not a valid directory.
+[Info  - 7:54:38 PM] (35346) Assuming Python version 3.10
+[Info  - 7:54:38 PM] (35346) Assuming Python platform Linux
+[Info  - 7:54:38 PM] (35346) Searching for source files
+[Info  - 7:54:38 PM] (35346) No source files found.
+[Info  - 7:54:38 PM] (35346) Background analysis(1) root directory: /home/aarni/.vscode/extensions/ms-python.vscode-pylance-2023.2.30/dist
+[Info  - 7:54:38 PM] (35346) Background analysis(1) started
+[Info  - 7:54:38 PM] (35346) Background analysis(2) root directory: /home/aarni/.vscode/extensions/ms-python.vscode-pylance-2023.2.30/dist
+[Info  - 7:54:38 PM] (35346) Background analysis(2) started

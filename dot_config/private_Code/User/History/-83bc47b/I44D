@@ -1,0 +1,2 @@
+POSTGRES_PASSWORD=root
+DATABASE_URL=postgres://root:root@localhost:5455

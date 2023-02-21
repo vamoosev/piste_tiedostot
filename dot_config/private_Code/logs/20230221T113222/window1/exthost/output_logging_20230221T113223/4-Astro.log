@@ -1,0 +1,11 @@
+Successfully initialized! 🚀
+TypeError: Cannot read properties of undefined (reading 'astro.typescript')
+    at um.getConfig (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:37:3017)
+    at async u5 (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:615:1550)
+    at async KC (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:615:1330)
+    at async Lb.getLSForPath (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:615:7329)
+    at async Lb.getLSAndTSDoc (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:615:7208)
+    at async bb.getInlayHints (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:610:1600)
+    at async eb.tryExecutePlugin (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:583:24975)
+    at async eb.execute (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:583:24684)
+    at async eb.getInlayHints (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:583:24070)

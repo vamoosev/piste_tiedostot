@@ -1,0 +1,12 @@
+Successfully initialized! 🚀
+TypeError: Cannot read properties of undefined (reading 'astro.typescript')
+    at um.getConfig (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:37:3017)
+    at async u5 (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:615:1550)
+    at async KC (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:615:1330)
+    at async Lb.getLSForPath (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:615:7329)
+    at async Lb.getLSAndTSDoc (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:615:7208)
+    at async mb.getFoldingRanges (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:609:3250)
+    at async eb.tryExecutePlugin (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:583:24975)
+    at async Promise.all (index 3)
+    at async eb.execute (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:583:24779)
+    at async eb.getFoldingRanges (/home/aarni/.vscode/extensions/astro-build.astro-vscode-0.28.2-linux-x64/dist/node/server.js:583:22509)

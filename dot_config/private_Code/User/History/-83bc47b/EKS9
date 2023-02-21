@@ -1,0 +1,2 @@
+POSTGRES_PASSWORD=root
+POSTGRES_ADDR=postgres://postgres:postgres@database:5432/testaustime

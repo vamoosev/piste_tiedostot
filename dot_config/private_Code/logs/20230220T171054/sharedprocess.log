@@ -1,0 +1,2 @@
+2023-02-20 17:10:55.526 [info] Starting worker process with pid 17574 (type: fileWatcher, window: 1).
+2023-02-20 17:10:55.599 [info] Deleted from disk rust-lang.rust-analyzer /home/aarni/.vscode/extensions/rust-lang.rust-analyzer-0.3.1402-linux-x64

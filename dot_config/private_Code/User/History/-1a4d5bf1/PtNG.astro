@@ -1,0 +1,33 @@
+---
+import { Icon } from 'astro-icon'
+---
+
+<nav class="flex p-4 text-xl w-auto">
+    <a href="https://huhuu.news/" class="flex justify-start mb-4 sm:mb-0 mr-10 text-2xl">
+        <img src="/images/uudet_ykköset_elsa.jpg" class="h-8 mr-3" alt="Huhuu Logo" />
+        <span class="self-center font-semibold whitespace-nowrap dark:text-white">Huhuu</span>
+    </a>
+    <div class="relative flex justify-end w-full">
+        <a href="/" class="mr-6">Home</a>
+        <a href="/news/">News</a>
+    </div>
+</nav>
+
+
+
+<script>
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  document.documentElement.classList.add('dark')
+} else {
+  document.documentElement.classList.remove('dark')
+}
+
+// Whenever the user explicitly chooses light mode
+localStorage.theme = 'light'
+
+// Whenever the user explicitly chooses dark mode
+localStorage.theme = 'dark'
+
+// Whenever the user explicitly chooses to respect the OS preference
+localStorage.removeItem('theme')
+</script>

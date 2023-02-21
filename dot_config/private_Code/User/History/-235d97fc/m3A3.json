@@ -1,0 +1,8 @@
+{
+    "window.zoomLevel": 2,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Bearded Theme Monokai Black",
+    "editor.fontFamily": ",'Droid Sans Mono', 'monospace', monospace"
+}

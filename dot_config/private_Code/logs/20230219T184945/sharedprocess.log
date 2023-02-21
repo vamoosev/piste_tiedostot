@@ -1,0 +1,34 @@
+2023-02-19 18:49:46.883 [info] Starting worker process with pid 19000 (type: fileWatcher, window: 1).
+2023-02-19 20:05:13.839 [info] Getting Manifest... eamodio.gitlens
+2023-02-19 20:05:13.848 [info] Installing extension: eamodio.gitlens
+2023-02-19 20:05:15.758 [warning] Extension signature verification: eamodio.gitlens. Verification status: UnknownError.
+2023-02-19 20:05:15.956 [info] Extracted extension to /home/aarni/.vscode/extensions/.af319889-1251-4dd5-87f3-567580c66aaa: eamodio.gitlens
+2023-02-19 20:05:15.965 [info] Renamed to /home/aarni/.vscode/extensions/eamodio.gitlens-13.2.0
+2023-02-19 20:05:15.967 [info] Extracting completed. eamodio.gitlens
+2023-02-19 20:05:15.977 [info] Extension installed successfully: eamodio.gitlens
+2023-02-19 20:05:39.640 [info] Uninstalling extension from the profile: eamodio.gitlens@13.2.0 vscode-userdata:/home/aarni/.vscode/extensions/extensions.json
+2023-02-19 20:05:39.713 [info] Marked extension as uninstalled eamodio.gitlens-13.2.0
+2023-02-19 20:05:40.038 [info] Successfully uninstalled extension from the profile eamodio.gitlens@13.2.0 vscode-userdata:/home/aarni/.vscode/extensions/extensions.json
+2023-02-19 20:05:43.135 [info] Worker process with pid 19000 terminated normally (type: fileWatcher, window: 1).
+2023-02-19 20:05:43.608 [info] Starting worker process with pid 31809 (type: fileWatcher, window: 1).
+2023-02-19 20:05:59.544 [info] Getting Manifest... maattdd.gitless
+2023-02-19 20:05:59.551 [info] Installing extension: maattdd.gitless
+2023-02-19 20:06:01.568 [warning] Extension signature verification: maattdd.gitless. Verification status: UnknownError.
+2023-02-19 20:06:01.760 [info] Extracted extension to /home/aarni/.vscode/extensions/.9f6a09f7-3f37-4a80-a32b-4d24172d299e: maattdd.gitless
+2023-02-19 20:06:01.769 [info] Renamed to /home/aarni/.vscode/extensions/maattdd.gitless-11.7.2
+2023-02-19 20:06:01.771 [info] Extracting completed. maattdd.gitless
+2023-02-19 20:06:01.781 [info] Extension installed successfully: maattdd.gitless
+2023-02-19 20:06:13.639 [info] Getting Manifest... dbaeumer.vscode-eslint
+2023-02-19 20:06:13.642 [info] Installing extension: dbaeumer.vscode-eslint
+2023-02-19 20:06:15.042 [warning] Extension signature verification: dbaeumer.vscode-eslint. Verification status: UnknownError.
+2023-02-19 20:06:15.062 [info] Extracted extension to /home/aarni/.vscode/extensions/.45d22a92-23ab-4ba9-a7e4-dff2e7039215: dbaeumer.vscode-eslint
+2023-02-19 20:06:15.067 [info] Renamed to /home/aarni/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0
+2023-02-19 20:06:15.069 [info] Extracting completed. dbaeumer.vscode-eslint
+2023-02-19 20:06:15.077 [info] Extension installed successfully: dbaeumer.vscode-eslint
+2023-02-19 20:06:27.287 [info] Getting Manifest... esbenp.prettier-vscode
+2023-02-19 20:06:27.289 [info] Installing extension: esbenp.prettier-vscode
+2023-02-19 20:06:29.191 [warning] Extension signature verification: esbenp.prettier-vscode. Verification status: UnknownError.
+2023-02-19 20:06:29.278 [info] Extracted extension to /home/aarni/.vscode/extensions/.c309573d-dd88-43c6-862f-2185243f8b98: esbenp.prettier-vscode
+2023-02-19 20:06:29.282 [info] Renamed to /home/aarni/.vscode/extensions/esbenp.prettier-vscode-9.10.4
+2023-02-19 20:06:29.284 [info] Extracting completed. esbenp.prettier-vscode
+2023-02-19 20:06:29.290 [info] Extension installed successfully: esbenp.prettier-vscode

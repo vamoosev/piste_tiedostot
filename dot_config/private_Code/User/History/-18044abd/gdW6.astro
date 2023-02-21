@@ -1,0 +1,9 @@
+---
+import Layout from "./Layout.astro";
+const { frontmatter } = Astro.props;
+---
+<Layout title={frontmatter.title}>
+    <main>
+        <article class="blog-content flex flex-col justify-center max-w-6xl mt-6 rounded pt-11"><slot /></article>
+    </main>
+</Layout>

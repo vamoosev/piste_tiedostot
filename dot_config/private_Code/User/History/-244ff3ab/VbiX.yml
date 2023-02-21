@@ -1,0 +1,30 @@
+version: '3.1'
+
+services:
+
+  database:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: testaustime
+    ports:
+      - "5432:5432"
+
+  testaustimebackend:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      restart: unless-stopped
+      container_name: testaustimebackend
+      environment:
+        - DATABASE_URL=${POSTGRES_ADDR}
+      depends_on:
+        - database
+      ports:
+       - 8000:8000
+
+network:
+  default:
+    driver: bridge
+  

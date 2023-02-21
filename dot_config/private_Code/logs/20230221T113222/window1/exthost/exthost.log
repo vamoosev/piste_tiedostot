@@ -1,0 +1,46 @@
+2023-02-21 11:32:23.036 [info] Extension host with pid 1858 started
+2023-02-21 11:32:23.036 [info] Skipping acquiring lock for /home/aarni/.config/Code/User/workspaceStorage/0c26edfc0c51c6a1cf2d8ac729b15294.
+2023-02-21 11:32:23.087 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: false, activationEvent: 'onLanguage:astro'
+2023-02-21 11:32:23.099 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-21 11:32:23.102 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-21 11:32:23.103 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-02-21 11:32:23.165 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-21 11:32:23.180 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-21 11:32:23.254 [info] Eager extensions activated
+2023-02-21 11:32:23.269 [error] Error: No registered selector for ID: ms-vscode.npm-command
+    at R.registerQuickFixProvider (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1557:27745)
+    at r.$registerQuickFixProvider (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1696:52931)
+    at m.N (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:15220)
+    at m.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:14938)
+    at m.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:14031)
+    at m.G (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:13012)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:11800
+    at g.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at n.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:2029)
+    at a.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:1667)
+    at r.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:553:15219)
+    at Z.onmessage (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1671:1490)
+2023-02-21 11:32:23.270 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-21 11:32:23.271 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-21 11:32:23.280 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-02-21 11:32:23.288 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-02-21 11:32:23.295 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-02-21 11:32:23.316 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-02-21 11:32:23.403 [info] ExtensionService#_doActivateExtension maattdd.gitless, startup: false, activationEvent: 'onStartupFinished'
+2023-02-21 11:32:23.426 [info] ExtensionService#_doActivateExtension testausserveri-ry.testaustime, startup: false, activationEvent: 'onStartupFinished'
+2023-02-21 11:32:23.618 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-02-21 11:32:24.160 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-02-21 11:32:25.407 [error] [bradlc.vscode-tailwindcss] provider FAILED
+2023-02-21 11:32:25.408 [error] TypeError: Cannot read properties of null (reading 'filter')
+    at Object.<anonymous> (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:43:11485)
+    at Generator.next (<anonymous>)
+    at s (/home/aarni/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.7/dist/extension.js:1:1247)
+2023-02-21 11:32:28.361 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-02-21 11:32:31.690 [warning] TextEditor is closed/disposed
+2023-02-21 11:32:31.742 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-21 11:32:31.759 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-21 11:32:37.564 [warning] TextEditor is closed/disposed
+2023-02-21 11:32:45.767 [warning] TextEditor is closed/disposed
+2023-02-21 11:32:46.760 [warning] TextEditor is closed/disposed
+2023-02-21 11:32:52.511 [warning] TextEditor is closed/disposed
+2023-02-21 11:32:56.672 [warning] TextEditor is closed/disposed

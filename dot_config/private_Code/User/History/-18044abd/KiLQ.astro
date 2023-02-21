@@ -1,0 +1,9 @@
+---
+import Layout from "./Layout.astro";
+const { frontmatter } = Astro.props;
+---
+<Layout title={frontmatter.title}>
+    <main>
+        <article class="blog-content left-10"><slot /></article>
+    </main>
+</Layout>

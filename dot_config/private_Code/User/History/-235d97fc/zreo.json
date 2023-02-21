@@ -1,0 +1,8 @@
+{
+    "window.zoomLevel": 3,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Bearded Theme Monokai Black",
+    "editor.fontFamily": "DejavuSansMono Nerd Font Mono,'Droid Sans Mono', 'monospace', monospace"
+}
